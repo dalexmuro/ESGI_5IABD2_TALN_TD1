@@ -54,9 +54,10 @@ def evaluate(task, input_filename):
 
 def evaluate_model(model, X, y):
     # Scikit learn has function for cross validation
-    scores = cross_val_score(model, X, y, scoring="accuracy")
+    scores = cross_val_score(model, X, y, scoring="accuracy", cv=10)
 
     print(f"Got accuracy {100 * np.mean(scores)}%")
+    print(scores)
 
     return scores
 
