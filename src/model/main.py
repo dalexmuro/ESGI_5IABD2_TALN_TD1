@@ -6,8 +6,14 @@ from sklearn.svm import SVC
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer, HashingVectorizer
 from sklearn.pipeline import Pipeline
 
-def make_model():
-    return Pipeline([
-        ("count_vectorizer", CountVectorizer()),
-        ("tree", GradientBoostingClassifier(n_estimators=150, criterion='squared_error')),
-    ])
+def make_model(task):
+    if task == "is_comic_video":
+        return Pipeline([
+            ("count_vectorizer", CountVectorizer(min_df=2, lowercase=False)),
+            ("tree", GradientBoostingClassifier(n_estimators=150, criterion='squared_error')),
+        ])
+    elif task == "is_name":
+        return Pipeline([
+            ("count_vectorizer", CountVectorizer(min_df=2, lowercase=False)),
+
+        ])
