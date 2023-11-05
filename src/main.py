@@ -6,7 +6,6 @@ import pandas as pd
 from src.data.make_dataset import make_dataset
 from src.features.make_features import make_features
 from src.model.main import make_model
-import joblib
 import pickle
 import gzip
 
@@ -30,7 +29,7 @@ def train(task, input_filename, model_dump_filename):
         model = make_model(task)
         model.fit(X, y)
 
-        with gzip.open(model_dump_filename, 'wb') as f:
+        with gzip.open(model_dump_filename + "-" + task, 'wb') as f:
             pickle.dump(model, f)
 
 
@@ -78,7 +77,7 @@ def predict(task, input_filename, model_dump_filename, output_filename):
         df[task + "_prediction"] = y_pred
     else:
         X = make_features(df, task, output_required=False)
-        model = pickle.load(gzip.open(model_dump_filename, 'rb'))
+        model = pickle.load(gzip.open(model_dump_filename + "-" + task, 'rb'))
         if task == "is_comic_video":
             df[task + "_prediction"] = model.predict(X)
         elif task == "is_name":
