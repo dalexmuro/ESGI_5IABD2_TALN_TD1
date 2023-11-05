@@ -1,18 +1,18 @@
-,video_name
-0,Le Barbecue Disney - La chanson de Frédéric Fromet
-1,Le Roi et l'Oiseau - La Chronique de Christine Gonzalez
-2,L'amour du lac - La chronique d'Hippolyte Girardot
-3,La fille de la piscine de Léa Tourret - La chronique de Juliette Arnaud
-4,"""Le soleil va moins faire son malin quand Jean-Luc va aller lui hurler dessus ""les températures c'e"
-5,Seins en quête d’une libération - La chronique d'Isabelle Sorente
-6,Pickles de navet express - Les recettes de François-Régis Gaudry
-7,La Belle et les Bêtes - Gérémy Crédeville part en live
-8,Ras-Le-Bol des armes que Stallone fasse des pichenettes - Tanguy Pastureau maltraite l'info
-9,Le spectacle de danse de ma nièce - La Drôle D'Humeur De Tristan Lopin
-10,Lucien Jean-Baptiste - Morgane Cadignan n'aime pas
-11,Bilan du premier tour des législatives : la déroute des candidats portés par la complosphère
-12,"Julie Fuchs reprend Barbara : ""Une petite cantate"" - La carte blanche"
-13,Météo : les mots et les images du beau temps - L'Instant M
-14,"E Macron en Ukraine : ""Quatre mois pour clarifier les choses c'est long quand on est en guerre"""
-15,"Marine Le Pen : ""on peut obtenir qu'Emmanuel Macron n'ait pas la majorité absolue"" à l'Assemblée"
-16,"""La France insoumise est un mouvement de masse"" - Adrien Quatennens"
+,video_name,is_name,is_comic,comic_name,tokens
+0,Le Barbecue Disney - La chanson de Frédéric Fromet,"[0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Frédéric Fromet""]","[""Le"", ""Barbecue"", ""Disney"", ""-"", ""La"", ""chanson"", ""de"", ""Fr\u00e9d\u00e9ric"", ""Fromet""]"
+1,Le Roi et l'Oiseau - La Chronique de Christine Gonzalez,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Christine Gonzalez""]","[""Le"", ""Roi"", ""et"", ""l'"", ""Oiseau"", ""-"", ""La"", ""Chronique"", ""de"", ""Christine"", ""Gonzalez""]"
+2,L'amour du lac - La chronique d'Hippolyte Girardot,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Hippolyte Girardot""]","[""L'"", ""amour"", ""du"", ""lac"", ""-"", ""La"", ""chronique"", ""d'"", ""Hippolyte"", ""Girardot""]"
+3,La fille de la piscine de Léa Tourret - La chronique de Juliette Arnaud,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",0,[],"[""La"", ""fille"", ""de"", ""la"", ""piscine"", ""de"", ""L\u00e9a"", ""Tourret"", ""-"", ""La"", ""chronique"", ""de"", ""Juliette"", ""Arnaud""]"
+4,"""Le soleil va moins faire son malin quand Jean-Luc va aller lui hurler dessus ""les températures c'e","[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"[""\""Le"", ""soleil"", ""va"", ""moins"", ""faire"", ""son"", ""malin"", ""quand"", ""Jean-Luc"", ""va"", ""aller"", ""lui"", ""hurler"", ""dessus"", ""\""les"", ""temp\u00e9ratures"", ""c'"", ""e""]"
+5,Seins en quête d’une libération - La chronique d'Isabelle Sorente,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Isabelle Sorente""]","[""Seins"", ""en"", ""qu\u00eate"", ""d\u2019une"", ""lib\u00e9ration"", ""-"", ""La"", ""chronique"", ""d'"", ""Isabelle"", ""Sorente""]"
+6,Pickles de navet express - Les recettes de François-Régis Gaudry,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",0,[],"[""Pickles"", ""de"", ""navet"", ""express"", ""-"", ""Les"", ""recettes"", ""de"", ""Fran\u00e7ois-R\u00e9gis"", ""Gaudry""]"
+7,La Belle et les Bêtes - Gérémy Crédeville part en live,"[0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]",1,"[""Gérémy Crédeville""]","[""La"", ""Belle"", ""et"", ""les"", ""B\u00eates"", ""-"", ""G\u00e9r\u00e9my"", ""Cr\u00e9deville"", ""part"", ""en"", ""live""]"
+8,Ras-Le-Bol des armes que Stallone fasse des pichenettes - Tanguy Pastureau maltraite l'info,"[0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0]",1,"[""Tanguy Pastureau""]","[""Ras-Le-Bol"", ""des"", ""armes"", ""que"", ""Stallone"", ""fasse"", ""des"", ""pichenettes"", ""-"", ""Tanguy"", ""Pastureau"", ""maltraite"", ""l'"", ""info""]"
+9,Le spectacle de danse de ma nièce - La Drôle D'Humeur De Tristan Lopin,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Tristan Lopin""]","[""Le"", ""spectacle"", ""de"", ""danse"", ""de"", ""ma"", ""ni\u00e8ce"", ""-"", ""La"", ""Dr\u00f4le"", ""D'"", ""Humeur"", ""De"", ""Tristan"", ""Lopin""]"
+10,Lucien Jean-Baptiste - Morgane Cadignan n'aime pas,"[1, 1, 0, 1, 1, 0, 0, 0]",1,"[""Morgane Cadignan""]","[""Lucien"", ""Jean-Baptiste"", ""-"", ""Morgane"", ""Cadignan"", ""n'"", ""aime"", ""pas""]"
+11,Bilan du premier tour des législatives : la déroute des candidats portés par la complosphère,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"[""Bilan"", ""du"", ""premier"", ""tour"", ""des"", ""l\u00e9gislatives"", "":"", ""la"", ""d\u00e9route"", ""des"", ""candidats"", ""port\u00e9s"", ""par"", ""la"", ""complosph\u00e8re""]"
+12,"Julie Fuchs reprend Barbara : ""Une petite cantate"" - La carte blanche","[1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"[""Julie"", ""Fuchs"", ""reprend"", ""Barbara"", "":"", ""\""Une"", ""petite"", ""cantate\"""", ""-"", ""La"", ""carte"", ""blanche""]"
+13,Météo : les mots et les images du beau temps - L'Instant M,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"[""M\u00e9t\u00e9o"", "":"", ""les"", ""mots"", ""et"", ""les"", ""images"", ""du"", ""beau"", ""temps"", ""-"", ""L'"", ""Instant"", ""M""]"
+14,"E Macron en Ukraine : ""Quatre mois pour clarifier les choses c'est long quand on est en guerre""","[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"[""E"", ""Macron"", ""en"", ""Ukraine"", "":"", ""\""Quatre"", ""mois"", ""pour"", ""clarifier"", ""les"", ""choses"", ""c'"", ""est"", ""long"", ""quand"", ""on"", ""est"", ""en"", ""guerre\""""]"
+15,"Marine Le Pen : ""on peut obtenir qu'Emmanuel Macron n'ait pas la majorité absolue"" à l'Assemblée","[1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"[""Marine"", ""Le"", ""Pen"", "":"", ""\""on"", ""peut"", ""obtenir"", ""qu'"", ""Emmanuel"", ""Macron"", ""n'"", ""ait"", ""pas"", ""la"", ""majorit\u00e9"", ""absolue\"""", ""\u00e0"", ""l'"", ""Assembl\u00e9e""]"
+16,Séries - Le Billet de François Morel,"[0, 0, 0, 0, 0, 1, 1]",1,"[""François Morel""]","[""S\u00e9ries"", ""-"", ""Le"", ""Billet"", ""de"", ""Fran\u00e7ois"", ""Morel""]"

@@ -1,18 +1,18 @@
-Unnamed: 0,video_name,is_comic_video
-0,Le Barbecue Disney - La chanson de Frédéric Fromet,1
-1,Le Roi et l'Oiseau - La Chronique de Christine Gonzalez,1
-2,L'amour du lac - La chronique d'Hippolyte Girardot,1
-3,La fille de la piscine de Léa Tourret - La chronique de Juliette Arnaud,0
-4,"""Le soleil va moins faire son malin quand Jean-Luc va aller lui hurler dessus ""les températures c'e",0
-5,Seins en quête d’une libération - La chronique d'Isabelle Sorente,1
-6,Pickles de navet express - Les recettes de François-Régis Gaudry,0
-7,La Belle et les Bêtes - Gérémy Crédeville part en live,1
-8,Ras-Le-Bol des armes que Stallone fasse des pichenettes - Tanguy Pastureau maltraite l'info,1
-9,Le spectacle de danse de ma nièce - La Drôle D'Humeur De Tristan Lopin,1
-10,Lucien Jean-Baptiste - Morgane Cadignan n'aime pas,1
-11,Bilan du premier tour des législatives : la déroute des candidats portés par la complosphère,0
-12,"Julie Fuchs reprend Barbara : ""Une petite cantate"" - La carte blanche",0
-13,Météo : les mots et les images du beau temps - L'Instant M,0
-14,"E Macron en Ukraine : ""Quatre mois pour clarifier les choses c'est long quand on est en guerre""",0
-15,"Marine Le Pen : ""on peut obtenir qu'Emmanuel Macron n'ait pas la majorité absolue"" à l'Assemblée",0
-16,"""La France insoumise est un mouvement de masse"" - Adrien Quatennens",0
+Unnamed: 0,video_name,is_name,is_comic,comic_name,tokens,is_comic_video_prediction,is_name_prediction,find_comic_name_prediction
+0,Le Barbecue Disney - La chanson de Frédéric Fromet,"[0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Frédéric Fromet""]","['Le', 'Barbecue', 'Disney', '-', 'La', 'chanson', 'de', 'Frédéric', 'Fromet']",1,[0 0 0 0 0 0 0 0 0],
+1,Le Roi et l'Oiseau - La Chronique de Christine Gonzalez,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Christine Gonzalez""]","['Le', 'Roi', 'et', ""l'"", 'Oiseau', '-', 'La', 'Chronique', 'de', 'Christine', 'Gonzalez']",1,[0 0 0 0 0 0 0 0 0 0 0],
+2,L'amour du lac - La chronique d'Hippolyte Girardot,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Hippolyte Girardot""]","[""L'"", 'amour', 'du', 'lac', '-', 'La', 'chronique', ""d'"", 'Hippolyte', 'Girardot']",1,[0 0 0 0 0 0 0 0 0 0],
+3,La fille de la piscine de Léa Tourret - La chronique de Juliette Arnaud,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",0,[],"['La', 'fille', 'de', 'la', 'piscine', 'de', 'Léa', 'Tourret', '-', 'La', 'chronique', 'de', 'Juliette', 'Arnaud']",0,[0 0 0 0 0 0 0 0 0 0 0 0 0 0],None
+4,"""Le soleil va moins faire son malin quand Jean-Luc va aller lui hurler dessus ""les températures c'e","[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"['""Le', 'soleil', 'va', 'moins', 'faire', 'son', 'malin', 'quand', 'Jean-Luc', 'va', 'aller', 'lui', 'hurler', 'dessus', '""les', 'températures', ""c'"", 'e']",0,[0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0],None
+5,Seins en quête d’une libération - La chronique d'Isabelle Sorente,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Isabelle Sorente""]","['Seins', 'en', 'quête', 'd’une', 'libération', '-', 'La', 'chronique', ""d'"", 'Isabelle', 'Sorente']",1,[0 0 0 0 0 0 0 0 0 0 0],
+6,Pickles de navet express - Les recettes de François-Régis Gaudry,"[0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",0,[],"['Pickles', 'de', 'navet', 'express', '-', 'Les', 'recettes', 'de', 'François-Régis', 'Gaudry']",0,[0 0 0 0 0 0 0 0 0 0],None
+7,La Belle et les Bêtes - Gérémy Crédeville part en live,"[0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]",1,"[""Gérémy Crédeville""]","['La', 'Belle', 'et', 'les', 'Bêtes', '-', 'Gérémy', 'Crédeville', 'part', 'en', 'live']",1,[0 0 0 0 0 0 1 0 0 0 0], Gérémy
+8,Ras-Le-Bol des armes que Stallone fasse des pichenettes - Tanguy Pastureau maltraite l'info,"[0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0]",1,"[""Tanguy Pastureau""]","['Ras-Le-Bol', 'des', 'armes', 'que', 'Stallone', 'fasse', 'des', 'pichenettes', '-', 'Tanguy', 'Pastureau', 'maltraite', ""l'"", 'info']",1,[0 0 0 0 0 0 0 0 0 1 1 0 0 0], Tanguy Pastureau
+9,Le spectacle de danse de ma nièce - La Drôle D'Humeur De Tristan Lopin,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]",1,"[""Tristan Lopin""]","['Le', 'spectacle', 'de', 'danse', 'de', 'ma', 'nièce', '-', 'La', 'Drôle', ""D'"", 'Humeur', 'De', 'Tristan', 'Lopin']",1,[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0],
+10,Lucien Jean-Baptiste - Morgane Cadignan n'aime pas,"[1, 1, 0, 1, 1, 0, 0, 0]",1,"[""Morgane Cadignan""]","['Lucien', 'Jean-Baptiste', '-', 'Morgane', 'Cadignan', ""n'"", 'aime', 'pas']",1,[0 0 0 1 1 0 0 0], Morgane Cadignan
+11,Bilan du premier tour des législatives : la déroute des candidats portés par la complosphère,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"['Bilan', 'du', 'premier', 'tour', 'des', 'législatives', ':', 'la', 'déroute', 'des', 'candidats', 'portés', 'par', 'la', 'complosphère']",0,[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0],None
+12,"Julie Fuchs reprend Barbara : ""Une petite cantate"" - La carte blanche","[1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"['Julie', 'Fuchs', 'reprend', 'Barbara', ':', '""Une', 'petite', 'cantate""', '-', 'La', 'carte', 'blanche']",0,[0 0 0 0 0 0 0 0 0 0 0 0],None
+13,Météo : les mots et les images du beau temps - L'Instant M,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"['Météo', ':', 'les', 'mots', 'et', 'les', 'images', 'du', 'beau', 'temps', '-', ""L'"", 'Instant', 'M']",0,[0 0 0 0 0 0 0 0 0 0 0 0 0 0],None
+14,"E Macron en Ukraine : ""Quatre mois pour clarifier les choses c'est long quand on est en guerre""","[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"['E', 'Macron', 'en', 'Ukraine', ':', '""Quatre', 'mois', 'pour', 'clarifier', 'les', 'choses', ""c'"", 'est', 'long', 'quand', 'on', 'est', 'en', 'guerre""']",0,[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0],None
+15,"Marine Le Pen : ""on peut obtenir qu'Emmanuel Macron n'ait pas la majorité absolue"" à l'Assemblée","[1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]",0,[],"['Marine', 'Le', 'Pen', ':', '""on', 'peut', 'obtenir', ""qu'"", 'Emmanuel', 'Macron', ""n'"", 'ait', 'pas', 'la', 'majorité', 'absolue""', 'à', ""l'"", 'Assemblée']",0,[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0],None
+16,Séries - Le Billet de François Morel,"[0, 0, 0, 0, 0, 1, 1]",1,"[""François Morel""]","['Séries', '-', 'Le', 'Billet', 'de', 'François', 'Morel']",1,[0 0 0 0 0 0 0],
